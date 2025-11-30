@@ -1,16 +1,22 @@
 # health_graph
 
-A new Flutter project.
+2025.11.29 ~ 30간 혈당 데이터가 담긴 좌표값들을 그래프로 표현한 프로젝트입니다.
 
-## Getting Started
+## 사용 기술
 
-This project is a starting point for a Flutter application.
+* Flutter - 3.38.3
+* fl_chart - 1.1.1
 
-A few resources to get you started if this is your first Flutter project:
+## 목표 주요 기능
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+* (O) 핀치줌
+* (O) 목표 혈당 구간 변경
+* (-) 12시, 22시 식사/수면 아이콘 오버레이
+* (-) 혈당 구간을 기준으로 아래는 빨간색, 위는 노란색으로 채움 
+* (x) 각 구간이 변경되는 지점을 gradient로 표현
+* (-) 탭 유지 시 해당 좌표의 데이터를 툴팁으로 노출
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 아쉬웠던 점
+
+* 목표 주요 기능에비해 부족했던 개발시간
+* 예상외로 길었던 패키지 학습시간, 의존성
